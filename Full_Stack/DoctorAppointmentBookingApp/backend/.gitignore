@@ -1,0 +1,8 @@
+# https://www.base64-image.de/ -> base64 image
+# https://cloud.mongodb.com -> mogodb atlas
+# https://console.cloudinary.com -> cloudinary
+
+.env
+node_modules
+
+# https://youtu.be/eRTTlS0zaW8
