@@ -12,6 +12,8 @@ node_modules/
 
 node_modules
 .env
+
+node_modules
 dist
 dist-ssr
 *.local
@@ -27,4 +29,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# https://youtu.be/eRTTlS0zaW8
+# https://youtu.be/tBObk72EYYw
+
+# https://prebuiltui.com -> prebuiltui

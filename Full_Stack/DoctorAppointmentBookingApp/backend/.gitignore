@@ -5,4 +5,7 @@
 .env
 node_modules
 
+node_modules/
+*/node_modules/
+
 # https://youtu.be/eRTTlS0zaW8
