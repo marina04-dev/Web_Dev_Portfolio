@@ -97,9 +97,9 @@ export const generateBlogTitle = async (req, res) => {
 
     // add usage to the free users
     if (plan !== "Premium") {
-      await clerkClient.users.updateUser(userId, {
+      await clerkClient.users.updateUserMetadata(userId, {
         privateMetadata: {
-          free_usage: free_usage + 1,
+        free_usage: free_usage + 1,
         },
       });
     }
