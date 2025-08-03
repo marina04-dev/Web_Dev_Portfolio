@@ -48,7 +48,9 @@ export const generateArticle = async (req, res) => {
     // add usage to the free users
     if (plan !== "Premium") {
       await clerkClient.users.updateUserMetadata(userId, {
-        free_usage: free_usage + 1,
+        privateMetadata: {
+          free_usage: free_usage + 1,
+          },
       });
     }
 
