@@ -1,0 +1,11 @@
+# Brevo For Email 
+# https://app.brevo.com/settings/keys/smtp
+
+# video
+# https://youtu.be/7BTsepZ9xp8
+
+node_modules/
+*/node_modules/
+
+node_modules
+.env
